@@ -1,0 +1,425 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #eb2b32;
+  margin: 0;
+}
+
+h2.page-heading {
+  width: 100%;
+}
+
+h2.page-heading:after {
+  width: 100px;
+  height: 1px;
+  line-height: 10px;
+  display: block;
+  background-color:  #eb2b32;
+  content: "";
+  margin: 10px auto 0px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #484848;
+  font-weight: 520;
+  margin: 0;
+  padding-top: 2px;
+}
+
+p {
+  font-size: 1rem;
+  color: #484848;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #484848;
+  font-weight: 520;
+  margin: 0;
+  padding-top: 2px;
+  font-style: italic;
+}
+
+a {
+  font-size: 0.95rem;
+}
+
+a:focus {
+  color: #484848;
+}
+
+/* modal */ 
+
+.modal-text {
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+
+.modal-body {
+  padding: 20px 5px 20px 5px;
+}
+
+.modal-footer {
+  background-color: #484848;
+  padding: 0;
+  margin: 0;
+}
+.modal-footer p {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  float: center;
+}
+
+.modal h2 {
+  padding-top: 5px;
+}
+/*Navigation bar */
+
+#center {
+  padding: 30px 0 15px 0;
+}
+
+#logo {
+  width: 90px;
+}
+
+#links {
+  display: block;
+  padding-top: 15px;
+}
+
+.nav-link {
+  display: inline-block !important;
+  padding: 5px;
+  text-transform: uppercase;
+  font-style: light;
+  color: #484848;
+}
+
+.nav-link:hover {
+  color: #eb2b32;
+}
+
+#nav-border {
+  border-bottom: 1px solid #d6c5c5;
+}
+
+/* About */
+
+#selfie {
+  width: 200px;
+}
+
+#who {
+  padding-top: 50px; 
+}
+
+#about-text {
+  padding-top: 15px;
+}
+
+#welcome {
+  padding-top: 50px; 
+}
+
+#welcome-text {
+  margin-top: 10px;
+}
+
+#more-info {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-transform: none;
+}
+.about-icons {
+  padding-right: 15px;
+  color: #eb2b32;
+}
+
+h3 a {
+  font-size: 1.1rem;
+  color: #666666;
+  font-weight: 520;
+  margin: 0;
+  padding-top: 2px;
+}
+
+h3 a:hover{
+  color: #eb2b32;
+  text-decoration: none;
+}
+
+#more-info h3 {
+  text-transform: none;
+}
+
+/* Intrests */
+
+#intrests {
+  margin-top: 40px;
+  padding-top: 50px;
+  text-align: center;
+  color: #eb2b32;
+  padding-bottom: 50px;
+  border-top: 1px solid #d6c5c5;
+}
+
+.intrests-heading {
+  color: #484848;
+}
+
+#intrests-container {
+  padding-top: 30px;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+#intrests p {
+  color: #484848;
+  padding-top: 5px;
+}
+
+#intrests-container .intrests-heading {
+  margin-top: 20px;
+}
+
+.intrests-paragraph {
+  padding: 0 30px 0 30px;
+}
+
+.card-border {
+  border: 1px solid #eb2b32;
+}
+.card {
+  padding: 30px;
+  height: 247px;
+}
+
+.card-border:hover {
+  border: 1px solid #484848;  
+}
+
+/*  school and work */
+
+#school-work {
+  padding-top: 50px;
+  border-top: 1px solid #d6c5c5;
+}
+
+#school-work h2 {
+  margin-bottom: 10px;
+}
+
+#school-work h3 {
+  color: #eb2b32;
+}
+
+/* skills */
+
+#skills {
+  border-top: 1px solid #d6c5c5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.graph {
+   max-width: 125px;
+   margin: 0 auto;
+}
+
+.graph-title {
+  color: #eb2b32;
+  font-weight: 520;
+  padding-top: 5px;
+}
+
+#graph-row {
+  padding-top: 30px;
+}
+
+/* portfolio */
+#portfolio {
+  border-top: 1px solid #d6c5c5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portfolio-row {
+  padding-top: 30px;
+}
+
+.portfolio-content {
+  margin: 15px 0px;
+  padding: 20px;
+}
+
+.portfolio-content p {
+  font-size: 0.9rem;
+}
+
+.portfolio-text-wrapper {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#portfolio p {
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+/*.second-row-portfolio {
+  background-color: #e8e8e8;
+  color: white;
+}*/
+
+
+.portfolio-content h2 {
+  margin-bottom: 5px;
+}
+
+/*download*/
+
+#resume {
+  width: 100%;
+  background-color: #eb2b32; 
+  padding: 20px 0 30px 0;
+}
+
+#resume h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#download-button {
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 520;
+}
+
+#download-button:hover {
+  background-color: #fff;
+  color: #eb2b32; 
+  text-decoration: none;
+  font-weight: 520;
+}
+
+/* footer*/
+
+#footer {
+  width: 100%;
+  background-color: #484848;  
+  padding: 10px 0;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+#another-footer {
+  background-color: #666666;
+}
+
+#another-footer p {
+  font-size: 0.9rem;
+  padding-bottom: 2px;
+  margin: 0;
+  color: #fff;
+}
+
+.footer-icon:hover {
+  color: #eb2b32; 
+}
+
+.portfolio-images {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.hover-image img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-image:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .portfolio-images {
+      margin: 5px 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .graph {
+    min-height: 145px;
+    width: 150px;
+    padding-top: 15px;
+  }  
+}
